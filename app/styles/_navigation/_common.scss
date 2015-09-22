@@ -1,0 +1,61 @@
+
+.navigation-commom {
+    background: #39424E;
+    padding-bottom : 1em;
+}
+
+.section1 {
+    background: url('../images/conference1.png') no-repeat;
+    background-size: cover;
+    padding-bottom : 3em;
+}
+
+.navigation-commom, .section1 {
+
+    .nav-link a:hover {
+        background-color: transparent;
+        text-decoration: underline;
+    }
+
+    h3 a:hover{
+        text-decoration: none;
+    }
+
+    .concat-details {
+        text-align: center;
+        text-transform: uppercase;
+        color: white;
+    }
+
+    .col-sm-4 {
+        padding: 0px;
+    }
+
+    .col-md-5 {
+        padding: 0px;
+    }
+
+    .col-md-2 {
+        padding: 0px;
+    }
+
+    .form-group {
+        padding: 1em 0;
+    }
+
+
+    .form-control {
+        border-radius: 0px;
+        padding: 6px 12px;
+    }
+
+    .search {
+        background-color: #19DA81;
+    }
+
+}
+
+.footer {
+    text-align: center;
+    background-color: black;
+}

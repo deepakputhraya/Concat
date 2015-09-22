@@ -1,0 +1,147 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+    <meta charset="utf-8">
+    <title>Concat</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <!-- build:css(.) styles/vendor.css -->
+    <!-- bower:css -->
+    <link rel="stylesheet" href="/bower_components/components-font-awesome/css/font-awesome.css" />
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:css(.tmp) styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+    <!-- build:js scripts/vendor/modernizr.js -->
+    <!-- endbuild -->
+
+</head>
+<body>
+    <div class="container-fluid">
+        <!-- HERE REMEMBER TO ADD SECTION1 class for the first page-->
+        <div class="navigation-commom">
+            <div class="container">
+                <div class="header">
+                    <ul class="nav nav-pills pull-right">
+                        <li class="nav-link"><a href="profile.html">Profile</a></li>
+                        <li class="nav-link"><a href="#">Login</a></li>
+                    </ul>
+                    <h3 class="text-muted"><a href="/">Concat</a></h3>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-5 col-sm-4 ">
+                        <input type="text" class="form-control" id="" placeholder="Engineering Domain">
+                    </div>
+                    <div class="col-md-5 col-sm-4 ">
+                        <input type="text" class="form-control" id="" placeholder="State">
+                    </div>
+                    <div class="col-md-2 col-sm-4 ">
+                        <input type="submit" class="btn search form-control" value= 'Search' id="" placeholder="Search">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Contents go here-->
+        <div class="container-fluid">
+            <div class="row profile-navbar">
+                <div class="col-md-offset-8 col-sm-offset-6 col-md-1 col-sm-2 profile-nav-top active"><a href="#">Navigation</a></div>
+                <div class="col-md-1 col-sm-2 profile-nav-top"><a href="#">Navigation</a></div>
+                <div class="col-md-1 col-sm-2 profile-nav-top"><a href="#">Navigation</a></div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-sm-4 profile-nav-left">
+                    <div class="row">
+                        <div class="profile-image col-md-6">
+                            <img src="./images/profile.jpg" class="img-circle" alt="profile image" />
+                        </div>
+                        <div class='col-md-6'>
+                            <h4 class="profile-name">
+                                Deepak Puthraya
+                            </h4>
+                        </div>
+                    </div>
+                    <div class="menu">
+                        <h5><a href="#">Menu OPtion</a></h5>
+                        <h5><a href="#">Menu OPtion</a></h5>
+                        <h5><a href="#">Menu OPtion</a></h5>
+                    </div>
+                </div>
+
+
+                <div class="col-md-9 col-sm-8 profile-view">
+                    <div class="cards row">
+                        <div class="date hidden-sm hidden-xs">
+                            <h2>07</h2>
+                            <h5>March 15</h5>
+                        </div>
+                        <div class="conference-details">
+                            <h4 class="title">Name of the conference?</h2>
+                            <p><b>Location : </b>Mangalore, Karnataka</p>
+                            <p class='hidden-md hidden-lg'><b>Paper Date: </b>7th March</p>
+                            <p class='col-md-9'><b>Conference Date: </b>29th March - 1st April</p>
+                            <p class='col-md-3 view-details'><a href="#">View Details -></a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Footer Goes here-->
+    <div class="footer">
+        <div class="container">
+            <ul class="nav nav-pills">
+                <div class="col-md-4">
+                    <li class="nav-link col-md-6 col-sm-6"><a href="#">FAQ</a></li>
+                    <li class="nav-link col-md-6 col-sm-6"><a href="#">Contact Us</a></li>
+                </div>
+                <div class="col-md-4">
+                    <li class="nav-link col-md-4 col-sm-4 col-xs-4"><a href="#"><span class='fa fa-2x fa-google-plus-square'></span></a></li>
+                    <li class="nav-link col-md-4 col-sm-4 col-xs-4"><a href="#"><span class='fa fa-2x fa-linkedin-square'></span></a></li>
+                    <li class="nav-link col-md-4 col-sm-4 col-xs-4"><a href="#"><span class='fa fa-2x fa-facebook-square'></span></a></li>
+                </div>
+                <div class="col-md-4">
+                    <li class="nav-link"><a href="#">copyright 2015 SIL pvt Ltd</a></li>
+                </div>
+            </ul>
+        </div>
+    </div>
+
+
+    <!-- build:js(.) scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="/bower_components/modernizr/modernizr.js"></script>
+    <script src="/bower_components/jquery/dist/jquery.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+
+    <!-- build:js(.) scripts/plugins.js -->
+    <!-- endbuild -->
+
+
+    <!-- build:js scripts/main.js -->
+    <script src="scripts/main.js"></script>
+    <!-- endbuild -->
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+        function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+        e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+        e.src='https://www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+        ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>
+    </body>
+    </html>
+    `

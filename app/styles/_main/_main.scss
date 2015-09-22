@@ -1,0 +1,69 @@
+.about {
+    padding: 5em 0;
+    h3 {
+        text-transform: uppercase;
+    }
+    h3, p {
+        text-align: center;
+    }
+}
+
+.trending {
+    background: url('../images/conference1.png') no-repeat;
+    background-size: cover;
+    list-style-type: none;
+
+    .topics {
+        padding: 5em 0;
+        background-color: #142141;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    h3 {
+        text-transform: uppercase;
+        text-align: center;
+        color: #19DA81;
+    }
+
+    li {
+        text-decoration: none;
+        color: white;
+    }
+
+    .text-left {
+        text-align: right;
+    }
+
+    .text-right {
+        text-align: left;
+    }
+
+    @media screen and (max-width : 768px){
+        .text-left {
+            text-align: center;
+        }
+
+        .text-right {
+            text-align: center;
+        }
+    }
+}
+
+.standout {
+    padding: 5em 0;
+    text-align: justify;
+
+    img {
+        width: 80%;
+        margin: 10%;
+    }
+
+}
+
+.footer {
+    text-align: center;
+    background-color: black;
+}
