@@ -1,17 +1,22 @@
 
 .navigation-commom {
-    background: #39424E;
+    background: url('../images/navigation_2.png') no-repeat;
     padding-bottom : 1em;
 }
 
 .section1 {
-    background: url('../images/conference1.png') no-repeat;
+    background: url('../images/concat_0005_Layer-1.png') no-repeat;
     background-size: cover;
-    padding-bottom : 3em;
+    padding-bottom : 10em;
+    padding-top: 1em;
+
+    .search-bar-main {
+        padding-top: 10em!important;
+    }
 }
 
 .navigation-commom, .section1 {
-
+    padding-top: 1em;
     .nav-link a:hover {
         background-color: transparent;
         text-decoration: underline;
