@@ -1,0 +1,43 @@
+.conference-details-dates {
+    padding: 1em;
+    margin-top: 2em;
+    background-color: #25213C;
+    color: #24D481;
+    text-align: center;
+    h4 {
+        color: white;
+    }
+    tr {
+        border-top: none!important;
+        border-bottom: 1px dotted lightgrey;
+    }
+    td {
+        border-top: none!important;
+        border-bottom: none!important;
+    }
+    tr:last-of-type {
+        border: none;
+    }
+}
+
+.conference-details-summary {
+    padding-top: 3em;
+    padding-bottom: 3em;
+    h4 {
+        padding-top: 2em;
+    }
+    button {
+        background-color: #24D481;
+        font-weight: normal;
+        color: white;
+    }
+}
+
+.conference-details-tags {
+    span {
+        background-color: black;
+        color: white;
+        padding: 4px;
+        border-radius: 1px;
+    }
+}
